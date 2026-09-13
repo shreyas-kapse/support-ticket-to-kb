@@ -1,0 +1,31 @@
+query_id,instruction,intent,category
+Q01,I cannot afford purchase {{Order Number}},cancel_order,ORDER
+Q02,modify order {{Order Number}},change_order,ORDER
+Q03,where do I correct my address?,change_shipping_address,SHIPPING
+Q04,where can I see the temrination fees?,check_cancellation_fee,CANCEL
+Q05,i dont know what i need to do to find ibll #12588,check_invoice,INVOICE
+Q06,show me your payment options,check_payment_methods,PAYMENT
+Q07,can you show me in what cases can I ask to be refunded?,check_refund_policy,REFUND
+Q08,help making a customer reclamation against your organization,complaint,FEEDBACK
+Q09,can I contact customer assistance?,contact_customer_service,CONTACT
+Q10,what do i need to do to talk to someone,contact_human_agent,CONTACT
+Q11,have problems with creating my standard account,create_account,ACCOUNT
+Q12,canceling {{Account Type}} account,delete_account,ACCOUNT
+Q13,"I have to check the shipping methods, how can I do it?",delivery_options,DELIVERY
+Q14,want help checking when will my product arrive,delivery_period,DELIVERY
+Q15,I have got to change my personal information,edit_account,ACCOUNT
+Q16,help to get my bills from {{Person Name}},get_invoice,INVOICE
+Q17,I don't know how to get compensations,get_refund,REFUND
+Q18,I want to sign up to your corporate newsletter,newsletter_subscription,SUBSCRIPTION
+Q19,help me to  report issues with payment,payment_issue,PAYMENT
+Q20,where can i order some of ur article,place_order,ORDER
+Q21,can ya help me retrieve the pin code of my acocunt,recover_password,ACCOUNT
+Q22,wanna notify of an signup issue can uhelp me,registration_problems,ACCOUNT
+Q23,i want help leaving feedback about a service,review,FEEDBACK
+Q24,i have a problem setting up my secondary shipping address,set_up_shipping_address,SHIPPING
+Q25,how do i use the {{Account Type}} account,switch_account,ACCOUNT
+Q26,see order {{Order Number}} status,track_order,ORDER
+Q27,I'm waiting for a compensation of {{Currency Symbol}}{{Refund Amount}},track_refund,REFUND
+Q28,track order {{Order Number}},track_order,ORDER
+Q29,wanna check the status of my subscription to ur newseltter,newsletter_subscription,SUBSCRIPTION
+Q30,I need hepp using the standard account,switch_account,ACCOUNT
