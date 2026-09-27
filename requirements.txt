@@ -1,0 +1,9 @@
+pandas
+scikit-learn
+matplotlib
+seaborn
+faiss-cpu
+numpy
+huggingface_hub
+fsspec
+sentence-transformers

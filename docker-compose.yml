@@ -1,0 +1,10 @@
+services:
+  notebook:
+    build: .
+    user: "${UID}:${GID}"
+
+    volumes:
+      - .:/support-ticket-to-kb
+
+    ports:
+      - "8001:8888"
